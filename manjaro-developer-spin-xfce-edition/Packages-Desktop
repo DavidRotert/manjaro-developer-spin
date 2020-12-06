@@ -258,6 +258,13 @@ okteta
 
 ## Development SDKs
 
+# Go
+go
+go-tools
+
+# Rust
+rust
+
 # Java
 jdk11-openjdk
 openjdk11-src
@@ -339,6 +346,8 @@ bind-tools
 bleachbit
 snapper-gui
 filelight
+inkscape
+ttf-font-awesome
 
 ## Printing
 print-manager

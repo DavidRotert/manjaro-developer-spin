@@ -1,4 +1,4 @@
-# Manajro Developer spin with XFCE desktop
+# Manjaro Developer spin with XFCE desktop
 
 This spin is based on Manjaro and offers a set of many applications focused on development.
 

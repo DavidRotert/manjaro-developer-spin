@@ -1,0 +1,8 @@
+{
+    "todo-tree.tree.showScanModeButton": false,
+    "workbench.colorTheme": "Visual Studio Light",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "vetur.format.options.tabSize": 4
+}

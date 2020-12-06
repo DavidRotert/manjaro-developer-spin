@@ -1,0 +1,345 @@
+## Network
+avahi
+networkmanager
+networkmanager-openconnect
+networkmanager-openvpn
+networkmanager-pptp
+networkmanager-vpnc
+nss-mdns # NSS support for mDNS (optdepend for avahi)
+ntp
+mobile-broadband-provider-info
+modemmanager
+openresolv
+openssh
+samba
+usb_modeswitch
+
+## Libraries for Sound/Audio/Video
+alsa-firmware
+alsa-utils
+ffmpeg
+gst-libav
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-good
+gst-plugins-ugly
+libdvdcss
+>multilib manjaro-alsa
+manjaro-pulse
+pulseaudio-bluetooth
+pulseaudio-ctl
+pulseaudio-zeroconf
+
+## Connect Packages
+android-tools
+android-udev
+gvfs
+gvfs-afc
+gvfs-gphoto2
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
+mtpfs
+udiskie
+udisks2
+
+## Fonts
+ttf-dejavu
+noto-fonts               # default font
+noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+noto-fonts-emoji
+terminus-font
+ttf-inconsolata
+ttf-indic-otf
+ttf-liberation
+ttf-droid
+
+## Package management
+apparmor
+pamac-gtk
+snapd
+snapd-glib
+pamac-snap-plugin
+pamac-flatpak-plugin
+
+## Printing
+manjaro-printer
+
+## Display manager
+lightdm
+lightdm-gtk-greeter
+lightdm-gtk-greeter-settings
+accountsservice  # Enhanced user accounts handling
+
+## XFCE Group
+exo
+garcon
+thunar
+thunar-volman
+tumbler
+xfce4-appfinder
+xfce4-panel
+xfce4-power-manager
+xfce4-session
+xfce4-settings
+xfce4-terminal
+xfconf
+xfdesktop
+xfwm4
+
+## XFCE Extras
+blueman
+ffmpegthumbnailer  # tumbler - for video thumbnails
+freetype2          # tumbler - for font thumbnails
+gksu
+gnome-keyring      # fix wlan segfault
+libgsf             # tumbler - for ODF thumbnails
+libopenraw         # tumbler - for RAW thumbnails
+light-locker
+network-manager-applet
+menulibre
+orage
+poppler-glib       # tumbler - for PDF thumbnails
+thunar-archive-plugin
+thunar-media-tags-plugin
+xfce4-battery-plugin
+xfce4-clipman-plugin
+xfce4-cpufreq-plugin
+xfce4-cpugraph-plugin
+xfce4-dict
+xfce4-diskperf-plugin
+xfce4-fsguard-plugin
+xfce4-genmon-plugin
+xfce4-mailwatch-plugin
+xfce4-mount-plugin
+xfce4-mpc-plugin
+xfce4-netload-plugin
+xfce4-notes-plugin
+xfce4-notifyd
+xfce4-screenshooter
+xfce4-sensors-plugin
+xfce4-smartbookmark-plugin
+xfce4-systemload-plugin
+xfce4-taskmanager
+xfce4-time-out-plugin
+xfce4-timer-plugin
+xfce4-verve-plugin
+xfce4-wavelan-plugin
+xfce4-weather-plugin
+xfce4-whiskermenu-plugin
+xfce4-xkb-plugin
+xfce4-pulseaudio-plugin
+pavucontrol
+
+## Themes
+manjaro-wallpapers-18.0
+wallpapers-2018
+wallpapers-juhraya
+gnome-icon-theme
+gnome-themes-standard
+xcursor-simpleandsoft
+xcursor-vanilla-dmz-aa
+xcursor-breeze
+papirus-icon-theme
+
+## Applications
+catfish
+dmidecode # optional dependency inxi
+engrampa
+firefox
+gcolor2
+gimp
+gparted
+gufw
+hexchat
+htop
+inxi
+libreoffice-still
+manjaro-hello
+manjaro-application-utility
+manjaro-settings-manager
+manjaro-settings-manager-notifier
+>basic midori
+mlocate
+mousepad
+mugshot
+pidgin
+powertop
+screenfetch
+poppler-data  # CKJ support for pdf
+thunderbird
+vlc
+viewnior
+xfburn
+yelp
+
+# Optional dependencies engrampa
+p7zip  # 7Z and ARJ archive support
+unace  # ACE archive support
+unrar  # RAR archive support
+
+## Documentation
+manjaro-documentation-en
+
+## Xorg Input Drivers
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-libinput
+xf86-input-void
+
+## Xorg Server and Graphics
+>multilib lib32-libva-intel-driver
+>multilib lib32-libva-mesa-driver
+>multilib lib32-libva-vdpau-driver
+libva-intel-driver
+libva-mesa-driver
+libva-vdpau-driver
+mesa-demos
+>multilib lib32-mesa-demos
+numlockx
+xdg-user-dirs
+xorg-server
+xorg-twm
+xorg-xinit
+xorg-xkill
+
+## Desktop Utils
+perl-file-mimeinfo
+xdg-utils
+#xdg-su
+timeshift
+kernel-alive
+
+## Misc
+gtkhash-thunar
+manjaro-hotfixes
+>basic squashfs-tools
+xiccd # enable color profile settings
+
+## Handshake tools
+#faucet-tool
+#hnsd-git
+#hsd-git
+#veracrypt
+#cryptoseed
+
+##### Custom
+
+## Desktop
+owncloud-client
+nextcloud-client
+mate-calc
+discord
+vlc
+onlyoffice-desktopeditors
+redshift
+
+## Browsers
+brave
+chromium
+firefox
+tor
+torbrowser-launcher
+
+## Grub
+grub-customizer
+
+## IDEs
+intellij-idea-community-edition
+pycharm-community-edition
+eric
+code
+qtcreator
+spyder
+geany
+geany-plugins
+texstudio
+okteta
+
+## Development SDKs
+
+# Java
+jdk11-openjdk
+openjdk11-src
+openjdk11-doc
+java11-openjfx
+java11-openjfx-doc
+java11-openjfx-src
+
+# Node
+nodejs-lts-erbium
+npm
+
+## Development
+base-devel
+gdb
+cmake
+gitg
+git-lfs
+git
+tk
+ipcalc
+curl
+wget
+
+## Kubernetes
+helm
+kubectl
+kubectx
+
+## Docker
+docker
+docker-compose
+
+## Remmina
+remmina
+freerdp
+libvncserver
+nxproxy
+spice-gtk
+telepathy-glib
+xorg-server-xephyr
+
+## Xonsh
+xonsh
+python-prompt_toolkit
+
+xca
+keepassxc
+seahorse
+veracrypt
+
+KERNEL-virtualbox-host-modules
+virtualbox
+
+cairo-dock
+cairo-dock-plug-ins
+
+qt5ct
+qt5-styleplugins
+
+yad
+albert
+android-file-transfer
+gnome-disk-utility
+dia
+backintime
+kompare
+meld
+python-keyring
+etcher
+atril
+xfce-theme-greybird
+filezilla
+gnome-characters
+ibus-typing-booster
+noto-fonts-emoji
+tilix
+bind-tools
+bleachbit
+snapper-gui
+filelight
+
+## Printing
+print-manager
+system-config-printer

@@ -235,14 +235,16 @@ onlyoffice-desktopeditors
 redshift
 
 ## Browsers
-brave
+# (only in AUR now)
+#brave
 chromium
 firefox
 tor
 torbrowser-launcher
 
 ## Grub
-grub-customizer
+# (conflicts with grub)
+#grub-customizer
 
 ## IDEs
 intellij-idea-community-edition

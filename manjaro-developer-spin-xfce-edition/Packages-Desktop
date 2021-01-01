@@ -224,6 +224,7 @@ xiccd # enable color profile settings
 #cryptoseed
 
 ##### Custom
+systemd-swap
 
 ## Desktop
 owncloud-client
@@ -245,6 +246,7 @@ torbrowser-launcher
 ## Grub
 # (conflicts with grub)
 #grub-customizer
+grub-btrfs
 
 ## IDEs
 intellij-idea-community-edition
@@ -346,6 +348,7 @@ noto-fonts-emoji
 tilix
 bind-tools
 bleachbit
+snapper
 snapper-gui
 filelight
 inkscape
